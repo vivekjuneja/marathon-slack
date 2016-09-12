@@ -26,6 +26,14 @@ if (process.env.EVENT_TYPES) {
     }
 }
 
+if (process.env.LABELS) {
+    if (process.env.LABELS.indexOf(",") > -1) {
+        options.labels = process.env.LABELS.split(","); 
+    } else {
+        options.labels = [process.env.LABELS];
+    }
+}
+
 // Create event listener
 var mel = new MarathonEventListener(options);
 

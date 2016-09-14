@@ -1,5 +1,9 @@
 # marathon-slack
 
+[![Code Climate](https://codeclimate.com/github/vivekjuneja/marathon-slack/badges/gpa.svg)](https://codeclimate.com/github/vivekjuneja/marathon-slack)
+
+<a href="https://codeclimate.com/github/vivekjuneja/marathon-slack"><img src="https://codeclimate.com/github/vivekjuneja/marathon-slack/badges/issue_count.svg" /></a>
+
 Listen to Marathon's Event Bus and send selected event types to a Slack WebHook!
 
 ## Preparations

@@ -23,6 +23,8 @@ You can configure `marathon-slack` via environment variables.
 * `SLACK_CHANNEL`: The name of the Slack channel to send the messages to (must contain `#`). Default is `#marathon`.
 * `EVENT_TYPES`: The comma-separated list of event types you want to have sent to Slack, separated by comma. By default, only `deployment_info`, `deployment_success` and `deployment_failed` are activated. See below for a complete list.
 * `LOG_LEVEL`: The log level (e.g. `info`, `debug`, `error`), default is `info`.
+* `LABELS`: The custom Marathon labels (e.g. `HAPROXY_0_GROUP`, `APP_ID`, `BUILD_ID`), No default.
+
 
 ### Event types
 
